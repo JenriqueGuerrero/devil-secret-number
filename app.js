@@ -109,8 +109,7 @@ function initialConditions(){
     updateTextContent('h1', 'Numero Secreto');
     secretNumber = generateSecretNumber();
     numAttemptsP = 0;
-    numAttemptsN = 4;
-    console.log(secretNumber)  
+    numAttemptsN = 4;  
 }
 
 // Resets the game to the initial conditions
